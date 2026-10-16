@@ -5,9 +5,10 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "usesAppleSignIn": true
     },
     "android": {
       "adaptiveIcon": {
@@ -20,6 +21,46 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "MEDISINA usa tu ubicación una sola vez, para saber de qué ciudad sacar el clima de tus plantas."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "MEDISINA usa la camara para reconocer tus plantas y abrirles su expediente."
+        }
+      ],
+      "expo-font",
+      "expo-splash-screen",
+      "expo-asset",
+      "expo-secure-store",
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "MEDISINA usa Face ID para que sólo tú abras tus plantas."
+        }
+      ],
+      "expo-apple-authentication"
+    ],
+    "scheme": "medisina",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f95705f3-c6f6-4ff3-a8ef-eac22ce8bde9"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f95705f3-c6f6-4ff3-a8ef-eac22ce8bde9"
+      }
+    },
+    "owner": "lxarmitage"
   }
 }

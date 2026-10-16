@@ -39,3 +39,20 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# variables de entorno (llave de Pl@ntNet, etc.)
+.env
+.env.*
+
+# herramientas locales del editor y de los agentes
+.claude/
+.agents/
+skills-lock.json
+
+# entrenamiento: compilado, fotos y rasgos intermedios (se generan, no se versionan)
+.entrenamiento-compilado/
+rasgos-*.jsonl
+rasgos-*.json
+r128*
+r160*
+*.tflite

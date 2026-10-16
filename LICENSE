@@ -1,21 +1,25 @@
-The MIT License (MIT)
+Copyright (c) 2026 Alonso (ArmitaGG3). Todos los derechos reservados.
 
-Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+El código de este repositorio se publica únicamente para que pueda leerse y
+evaluarse. No se concede permiso para copiarlo, modificarlo, distribuirlo,
+sublicenciarlo ni usarlo en otros proyectos, total o parcialmente, sin
+autorización previa y por escrito del autor.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+All rights reserved. This code is published for reading and evaluation only.
+No permission is granted to copy, modify, distribute, sublicense or use it, in
+whole or in part, without the author's prior written consent.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+---------------------------------------------------------------------------
+Componentes de terceros (conservan su propia licencia)
+---------------------------------------------------------------------------
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+src/ia/vision/red-plantas.json
+  Pesos convertidos del modelo "plants_V1" de Google AIY (MobileNet V2),
+  publicado bajo Apache License 2.0:
+  https://www.apache.org/licenses/LICENSE-2.0
+
+pruebas/fotos/*.jpg
+  Fotos de iNaturalist con licencia CC BY; el crédito de cada autor está en
+  pruebas/fotos/LEEME.md y pruebas/fotos/lista.json.
+
+Las dependencias de npm conservan las licencias de sus autores.

@@ -152,7 +152,7 @@ peers entre `react-dom` 19.3 y `react` 19.2 que detiene a npm sin esa bandera.
 
 ## Autor
 
-**Alonso (ArmitaGG3)**, estudiante de Ingeniería en Sistemas · [GitHub](https://github.com/LxArmitage)
+**Alonso (ArmitaGG3)**, Ingeniero en Sistemas · [GitHub](https://github.com/LxArmitage)
 
 ## Licencia
 
